@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <style>
+body{
+	background-color: #fafafa;
+	margin-left: 100px;
+    
+	}
+
+
+
+#myData
+{
+    
+    width: 1000px;
+    margin: 0 auto;
+    display: table;
+    
+}
+.instagram-card{
+	background: #ffffff;
+	border: 1px solid #c5c5c5;
+    padding: 20px;
+	width:400px; 
+    height:660px;
+	vertical-align: top;
+    margin: 20px;
+    float: left;
+   
+}
+
+.instagram-card-header{
+     display: inline-flex;
+     width: 100%;
+     
+}
+
+.profile-img{
+	border-radius: 50%; 
+    width:60px; 
+    height:60px;
+    
+   
+}
+.container
+{
+    content: "";
+  display: table;
+  clear: both;
+}
+
+/* .user-name, .date{
+
+	margin-left:30px;
+} */
+
+
+.user-name
+{
+    padding: 10px;
+    font-weight:bold;
+    
+}
+
+
+.logo{
+	float: left;
+    
+    margin-left: 158px;
+    
+}
+
+
+
+.instagram-card-content{
+  margin-top: 20px;
+  height: 120px;
+  
+}
+
+
+
+.instagram-card-content{
+  
+  color: #262626;
+  
+}
+
+.card-img
+{
+     
+    width:400px; 
+    height: 300px; 
+    display:center;
+   
+   
+}
+
+
+
+
+.instagram-card-footer{
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+
+hr{
+  border: none;
+  border-bottom: 1px solid #ccc;
+  margin-top: 90px;
+  margin-bottom: 0px;
+ 
+}
+
+
+.footer-action-icons{
+  font-size: 16px;
+  color: #ccc;
+}
+ .btn
+ {
+     display: block;
+     clear: both;
+     background-color: rgb(48, 161, 236);
+     width: 130px;
+     height: 60px;
+     color: #fafafa;
+     margin: 0 auto;
+ }
+
+ @media only screen and (max-width: 768px) {
+    #myData
+{
+    
+   width: 50%;
+    margin: 0 auto;
+    background-color: aqua;
+    
+    
+    
+}
+.instagram-card{
+	background: #ffffff;
+	border: 1px solid #c5c5c5;
+    padding: 20px;
+	width:400px; 
+    height:660px;
+	
+    margin: 20px;
+    
+    
+}
+
+}
+
+
+    </style>
+</head>
+<body>
+
+
+<div class="container">
+    <div id="myData">  
+         
+    </div>
+    
+    
+    <button class="btn" onclick="showFourCards()">Load more</button>
+
+</div>
+
+  
+    
+    
+    
+    
+    <script src="main.js"></script> 
+    
+</body>
+</html>
